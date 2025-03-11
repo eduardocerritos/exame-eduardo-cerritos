@@ -14,8 +14,6 @@ Dentro de la carpeta raiz puede ejecutar:
 Ejecuta la aplicacion en modo debug.\
 abrir [http://localhost:3007](http://localhost:3007) para ver en tu navegado.
 
-dentro del archivo Examen Eduardo Cerritos.postman_collection.json podremos encontrar la coleccion de peticiones para el api
-
 web-app
 
 Dentro de la carpeta client puede ejecutar:

@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "aec67961-1659-4070-897f-499907d42f7a",
+		"name": "Examen Eduardo Cerritos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12317803",
+		"_collection_link": "https://lunar-space-801963.postman.co/workspace/ROOMIE~0ecd9b86-1943-4762-a5f6-a8a788a72722/collection/12317803-aec67961-1659-4070-897f-499907d42f7a?action=share&source=collection_link&creator=12317803"
+	},
+	"item": [
+		{
+			"name": "GetAll",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3007/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3007",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOne",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3007/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3007",
+					"path": [
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"lalo\",\r\n    \"rfc\": \"lalo\",\r\n    \"direccion\": \"lalo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3007/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3007",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"PROVEEDOR 12 1\",\r\n    \"rfc\": \"RFC 12\",\r\n    \"direccion\": \"DIRECCION 12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3007/12",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3007",
+					"path": [
+						"12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3007/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3007",
+					"path": [
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
